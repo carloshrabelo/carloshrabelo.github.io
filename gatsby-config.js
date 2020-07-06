@@ -21,8 +21,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Site pessoal | Carlos Henrique Rabelo`,
+        short_name: `CarlosHRabelo`,
         start_url: `/`,
         background_color: `#576674`,
         theme_color: `#222f3e`,
