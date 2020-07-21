@@ -15,11 +15,12 @@ export default (filename) => {
   if (i18nJson)
     _json = json.map((d, k) =>
       typeof d === "string"
-        ? i18nJson[k]
+        ? i18nJson[k] || d
         : {
             ...d,
             ...i18nJson[k],
           }
     )
+    console.info(_json)
   return _json
 }

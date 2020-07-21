@@ -16,11 +16,12 @@ const Title = styled.h1`
   text-transform: uppercase;
 `
 
-const Section = ({ title, children, dateShort, data }) => (
+const Section = ({ title, children, dateShort, data = [] }) => (
   <Div>
     <Title>{title}</Title>
-    {data &&
-      data.map((j, key) => <MyBlock key={key} dateShort={dateShort} {...j} />)}
+    {data.map((j, key) => (
+      <MyBlock key={key} dateShort={dateShort} {...j} />
+    ))}
     {children}
   </Div>
 )
