@@ -149,7 +149,7 @@ const IndexPage = () => {
               ))}
             </Flex>
           </Section>
-          <Section title={t("languages")}>
+          <Section title={t("knowledges")}>
             <Flex>
               {knowledges.map((knowledge, key) => (
                 <Badge key={key}>{knowledge}</Badge>
