@@ -7,6 +7,18 @@ export default createGlobalStyle`
     ${variables}
   }
 
+  a {
+    color: #576674;
+    text-decoration: none;
+  }
+  a:active,
+  a:hover {
+    color: var(--color-primary);
+  }
+  a:visited{
+    color: #576674;
+  }
+
   *, *::before,*::after{
     box-sizing: border-box;
   }

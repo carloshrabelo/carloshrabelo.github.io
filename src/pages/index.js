@@ -149,13 +149,6 @@ const IndexPage = () => {
               ))}
             </Flex>
           </Section>
-          <Section title={t("knowledges")}>
-            <Flex>
-              {knowledges.map((knowledge, key) => (
-                <Badge key={key}>{knowledge}</Badge>
-              ))}
-            </Flex>
-          </Section>
         </Container1>
         <Container2>
           <Formation></Formation>
@@ -176,6 +169,13 @@ const IndexPage = () => {
             </div>
           </Section>
           <Section title={t("projects")} data={projects} />
+          <Section title={t("knowledges")}>
+            <Flex>
+              {knowledges.map((knowledge, key) => (
+                <Badge key={key}>{knowledge}</Badge>
+              ))}
+            </Flex>
+          </Section>
         </Container2>
       </Flex>
     </>

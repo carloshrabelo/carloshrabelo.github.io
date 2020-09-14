@@ -20,7 +20,7 @@ const MyBlock = ({ role, company, date, dateShort, description, about }) => (
     {description && (
       <ul>
         {description.map((d, key) => (
-          <li key={key}>{d}</li>
+          <li key={key} dangerouslySetInnerHTML={{ __html: d }} />
         ))}
       </ul>
     )}

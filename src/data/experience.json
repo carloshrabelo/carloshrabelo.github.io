@@ -1,8 +1,17 @@
 [
   {
+    "company": "Juntos Somos mais",
+    "role": "Engenheiro Front-End",
+    "date": ["04-01-2020"],
+    "description": [
+      "Criação e implementação das melhores soluções para atender o negócio, visando sempre a qualidade, a experiência dos membros e o compartilhamento das melhores práticas.",
+      "Desenvolvimento colaborativo da <a href=\"https://github.com/juntossomosmais/venice\" target=\"_blank\" rel=\"noopener noreferrer\">biblioteca de componentes visuais</a>."
+    ]
+  },
+  {
     "company": "PagSeguro",
     "role": "Engenheiro Front-End",
-    "date": ["07-01-2018"],
+    "date": ["07-01-2018", "04-01-2022"],
     "description": [
       "Desenvolvimento focado em entrega contínua numa das Plataformas de Atendimento PagSeguro, utilizada como base pelos atendentes no auxílio aos clientes.",
       "Desenvolvimento colaborativo da biblioteca de componentes visuais da Pagseguro."

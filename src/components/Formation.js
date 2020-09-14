@@ -18,9 +18,9 @@ const IndexPage = () => {
           <h3>{institution}</h3>
           {courses && (
             <ul>
-              {courses.map((course, i) => (
+              {courses.map(({ name, date }, i) => (
                 <li key={i}>
-                  {course.name} <Period date={course.date} dateShort></Period>
+                  {name} <Period date={date} dateShort></Period>
                 </li>
               ))}
             </ul>
