@@ -11,7 +11,7 @@
   {
     "company": "PagSeguro",
     "role": "Engenheiro Front-End",
-    "date": ["07-01-2018", "04-01-2022"],
+    "date": ["07-01-2018", "04-01-2020"],
     "description": [
       "Desenvolvimento focado em entrega contínua numa das Plataformas de Atendimento PagSeguro, utilizada como base pelos atendentes no auxílio aos clientes.",
       "Desenvolvimento colaborativo da biblioteca de componentes visuais da Pagseguro."
@@ -22,7 +22,7 @@
     "role": "Analista Desenvolvedor Web",
     "date": ["01-01-2017", "06-01-2018"],
     "description": [
-      "Desenvolvimento de sistemas em SPA com Angular / Vue para clientes do exterior, principalmente Suiça."
+      "Desenvolvimento de sistemas em SPA com Angular / Vue para clientes do exterior."
     ]
   },
   {
