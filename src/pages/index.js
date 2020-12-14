@@ -84,7 +84,7 @@ const Header = withTrans(styled(({ t, className }) => (
       {t("about.years")}
     </p>
     <p>
-      <FaMapMarkedAlt /> R. Cláudio Soares, 101 - Pinheiros, São Paulo - SP
+      <FaMapMarkedAlt /> R. José Kauer, 66 - Belém, São Paulo - SP
     </p>
     <ContatoWrapper>
       <Contato>
@@ -133,6 +133,8 @@ const IndexPage = () => {
   const technologies = loadData("technologies")
   const knowledges = loadData("knowledges")
 
+  // <Section title={t("certificates")} dateShort data={certificates} />
+
   return (
     <>
       <SEO title={t("curriculum")} />
@@ -141,7 +143,6 @@ const IndexPage = () => {
       <Flex>
         <Container1>
           <Section title={t("professional experience")} data={experience} />
-          <Section title={t("certificates")} dateShort data={certificates} />
           <Section title={t("technologies")}>
             <Flex>
               {technologies.map((technologie, key) => (
@@ -151,7 +152,7 @@ const IndexPage = () => {
           </Section>
         </Container1>
         <Container2>
-          <Formation></Formation>
+          <Formation/>
           <Section title={t("languages")}>
             <div>
               <p>

@@ -2,6 +2,18 @@
   {
     "role": "Front-end engineer",
     "description": [
+      "Development / maintenance of SPA applications according to the needs of customers / projects."
+    ]
+  },
+  {
+    "role": "Full Stack Developer",
+    "description": [
+      "Consultancy work, implementation of good practices and code optimization on the Gamifica platform."
+    ]
+  },
+  {
+    "role": "Front-end engineer",
+    "description": [
       "Creation and implementation of the best solutions to serve the business, always aiming at quality, the experience of members and the sharing of best practices.",
       "Collaborative development of the <a href=\"https://github.com/juntossomosmais/venice\" target=\"_blank\" rel=\"noopener noreferrer\"> library of visual components</a>"
     ]
@@ -27,10 +39,6 @@
     ]
   },
   {
-    "role": "Internship / Web Trainee / GIS",
-    "description": [
-      "I work with JavaScript map APIs from ESRI and MapViewer (Oracle), providing new ideas and customized views through geographic representations.",
-      "Integration of information from BI (OBIEE and Pentaho) with customized applications."
-    ]
+    "role": "Internship / Web Trainee / GIS"
   }
 ]

@@ -37,7 +37,7 @@ const Contact = ({ title }) => (
   <ContactWidget title={title}>
     <Social>
       <li>
-        <FaMapMarkedAlt /> R. Cláudio Soares, 101 - Pinheiros São Paulo - SP
+        <FaMapMarkedAlt /> R. José Kauer, 66 - Belém, São Paulo - SP
       </li>
       <li>
         <Link

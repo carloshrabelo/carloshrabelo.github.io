@@ -1,8 +1,24 @@
 [
   {
+    "company": "Mutant",
+    "role": "Engenheiro Front-End",
+    "date": ["10-01-2020"],
+    "description": [
+      "Desenvolvimento/manutenção de aplicações SPA de acordo com a necessidade dos clientes/projetos."
+    ]
+  },
+  {
+    "company": "Gamifica.ai",
+    "role": "Desenvolvedor Full Stack",
+    "date": ["09-01-2020"],
+    "description": [
+      "Trabalho de consultoria, implementação de boas práticas e otimização de código na plataforma Gamifica."
+    ]
+  },
+  {
     "company": "Juntos Somos mais",
     "role": "Engenheiro Front-End",
-    "date": ["04-01-2020"],
+    "date": ["04-01-2020","10-01-2020"],
     "description": [
       "Criação e implementação das melhores soluções para atender o negócio, visando sempre a qualidade, a experiência dos membros e o compartilhamento das melhores práticas.",
       "Desenvolvimento colaborativo da <a href=\"https://github.com/juntossomosmais/venice\" target=\"_blank\" rel=\"noopener noreferrer\">biblioteca de componentes visuais</a>."
@@ -37,10 +53,6 @@
   {
     "company": "CDS - Condomínio de Soluções",
     "role": "Estágio/Trainee Web / GIS",
-    "date": ["06-01-2014", "07-01-2015"],
-    "description": [
-      "Trabalho com APIs de mapas em JavaScript da ESRI e MapViewer (Oracle), provendo novas ideias e visões customizadas através de representações geográficas.",
-      "Integração de informações provenientes do BI (OBIEE e Pentaho) com aplicações customizadas."
-    ]
+    "date": ["06-01-2014", "07-01-2015"]
   }
 ]
