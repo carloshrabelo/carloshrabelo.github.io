@@ -15,6 +15,7 @@ const XPTO = ({
   avatar,
   name,
   active,
+  data,
   social = [
     {
       href: "https://www.facebook.com/carloshrabeloo",
@@ -54,7 +55,7 @@ const XPTO = ({
         ))}
       </S.SocialPlace>
     </Widget>
-    <ContactWidget title={t("contacts")}></ContactWidget>
+    <ContactWidget title={t("contacts")} data={data}></ContactWidget>
   </S.Section>
 )
 

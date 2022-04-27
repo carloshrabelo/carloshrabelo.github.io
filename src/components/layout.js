@@ -14,6 +14,7 @@ import logo from "../images/logo.png"
 import avatar from "../images/avatar.png"
 
 import { Link } from "gatsby"
+import loadData from "../utils/loadData"
 
 const Top = styled.div`
   color: #fff;
@@ -70,7 +71,10 @@ const Asdf = styled(Link)`
       display: none
   `}
 `
-const Layout = ({ children }) => (
+const Layout = ({ children }) => {
+  const contacts = loadData("contacts")
+
+  return(
   <ThemeProvider theme={theme}>
     <GlobalStyle />
     <Top>
@@ -87,10 +91,10 @@ const Layout = ({ children }) => (
         <Logo src={logo} />
       </Asdf>
     </Top>
-    <Vcard avatar={avatar} name="Carlos Henrique" />
+    <Vcard avatar={avatar} name="Carlos Henrique" data={contacts}/>
     <Nav />
     <Container>{children}</Container>
   </ThemeProvider>
-)
+)}
 
 export default withTrans(Layout)

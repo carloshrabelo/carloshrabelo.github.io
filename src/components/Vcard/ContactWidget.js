@@ -33,26 +33,26 @@ const Link = styled.a`
   }
 `
 
-const Contact = ({ title }) => (
+const Contact = ({ title, data }) => (
   <ContactWidget title={title}>
     <Social>
       <li>
-        <FaMapMarkedAlt /> R. José Kauer, 66 - Belém, São Paulo - SP
+        <FaMapMarkedAlt /> {data.address}
       </li>
       <li>
         <Link
-          href="https://api.whatsapp.com/send?phone=5561982770330"
+          href={`https://api.whatsapp.com/send?phone=${data.phone}`}
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaMobileAlt />
-          +55 (61) 9 8277-0330
+          {data["masked-phone"]}
         </Link>
       </li>
       <li>
-        <Link href="mailto:carloshrabelo@hotmail.com">
+        <Link href={`mailto:${data.mail}`}>
           <FaEnvelopeOpen />
-          carloshrabelo@hotmail.com
+          {data.mail}
         </Link>
       </li>
     </Social>

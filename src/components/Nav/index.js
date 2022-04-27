@@ -1,7 +1,8 @@
 import React from "react"
 
 import { FiFileText } from "react-icons/fi"
-import { FaFolderOpen, FaUserAlt } from "react-icons/fa"
+// import { FaFolderOpen, FaUserAlt } from "react-icons/fa"
+import {  FaUserAlt } from "react-icons/fa"
 import { Link } from "gatsby"
 import * as S from "./styles"
 import { useTranslation } from "react-i18next"

@@ -1,5 +1,12 @@
 [
   {
+    "role": "Front-end engineer",
+    "description": [
+      "Providing services to Farfetch through Alter.",
+      "Development of the back-office for display management and creation of landing pages."
+    ]
+  },
+  {
     "role": "Full Stack Engineer",
     "description": [
       "Consultancy work, implementation of good practices and code optimization on the Gamifica platform."

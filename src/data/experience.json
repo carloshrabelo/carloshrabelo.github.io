@@ -1,8 +1,17 @@
 [
   {
+    "company": "Alter-Solutions",
+    "role": "Engenheiro Front-End",
+    "date": ["04-01-2021"],
+    "description": [
+      "Prestação de serviços para Farfetch por meio da Alter.",
+      "Desenvolvimento do back-office para s gestão dos displays e criação landing pages."
+    ]
+  },
+  {
     "company": "Gamifica",
     "role": "Engenheiro Full Stack",
-    "date": ["09-01-2020"],
+    "date": ["09-01-2020","04-01-2021"],
     "description": [
       "Trabalho de consultoria, implementação de boas práticas e otimização de código na plataforma Gamifica."
     ]

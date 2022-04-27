@@ -76,7 +76,10 @@ const ContatoWrapper = styled.div`
   `)}
 `
 
-const Header = withTrans(styled(({ t, className }) => (
+const Header = withTrans(styled(({ t, className }) => {
+  const contacts = loadData("contacts")
+
+  return(
   <div className={className}>
     <FullName>Carlos Henrique Rabelo de Oliveira</FullName>
     <p>
@@ -84,30 +87,30 @@ const Header = withTrans(styled(({ t, className }) => (
       {t("about.years")}
     </p>
     <p>
-      <FaMapMarkedAlt /> R. José Kauer, 66 - Belém, São Paulo - SP
+      <FaMapMarkedAlt /> {contacts.address}
     </p>
     <ContatoWrapper>
       <Contato>
         <Link
           target="_blank"
-          href="https://api.whatsapp.com/send?phone=5561982770330"
+          href={`https://api.whatsapp.com/send?phone=${contacts.phone}`}
         >
-          <FaPhone /> +55 (61) 9 8277-0330
+          <FaPhone /> {contacts["masked-phone"]}
         </Link>
       </Contato>
       <Contato>
-        <Link href="mailto:carloshrabelo@hotmail.com">
-          <FaAt /> carloshrabelo@hotmail.com
+        <Link href={`mailto:${contacts.mail}`}>
+          <FaAt /> {contacts.mail}
         </Link>
       </Contato>
       <Contato>
-        <Link target="_blank" href="https://www.linkedin.com/in/carloshrabelo/">
-          <FaLinkedin /> /carloshrabelo
+        <Link target="_blank" href={`https://www.linkedin.com/in/${contacts.linkedin}/`}>
+          <FaLinkedin /> {contacts.linkedin}
         </Link>
       </Contato>
     </ContatoWrapper>
   </div>
-))`
+)})`
   padding: 1rem;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   p {
@@ -129,9 +132,10 @@ const IndexPage = () => {
 
   const experience = loadData("experience")
   const projects = loadData("projects")
-  const certificates = loadData("certificates")
+  // const certificates = loadData("certificates")
   const technologies = loadData("technologies")
   const knowledges = loadData("knowledges")
+
 
   // <Section title={t("certificates")} dateShort data={certificates} />
 
