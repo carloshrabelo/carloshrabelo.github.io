@@ -46,13 +46,13 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "c433f1e9d47847dbc9b5faf9c45113a7"
+    "revision": "ee3c8636eb2f4eb6020466b705c9a7ab"
   },
   {
-    "url": "static/webfonts/s/nunito/v20/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTQ3jw.woff2"
+    "url": "static/webfonts/s/nunito/v23/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTQ3jw.woff2"
   },
   {
-    "url": "static/webfonts/s/nunito/v20/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmdTQ3jw.woff2"
+    "url": "static/webfonts/s/nunito/v23/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmdTQ3jw.woff2"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-241020a1cf7d0f317bbe.js"
