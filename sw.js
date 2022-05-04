@@ -27,13 +27,13 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-755fd2511c465f567ff0.js"
+    "url": "webpack-runtime-c5f266b1a6b4f8c61f62.js"
   },
   {
     "url": "framework-61416065c0fba8268899.js"
   },
   {
-    "url": "1bfc9850-404d0e554b8db03ddf86.js"
+    "url": "1bfc9850-b5ba3429140be66d5519.js"
   },
   {
     "url": "5e2a4920-4b5badf28a9447636150.js"
@@ -42,11 +42,11 @@ self.__precacheManifest = [
     "url": "95b64a6e-28e843358d9c26f55683.js"
   },
   {
-    "url": "app-b6f7362926e6db1c9b2f.js"
+    "url": "app-1d3a61b7b4b281e0d9f3.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "ee3c8636eb2f4eb6020466b705c9a7ab"
+    "revision": "551d3daf4910d6fa46d8e70cbff20c63"
   },
   {
     "url": "static/webfonts/s/nunito/v23/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTQ3jw.woff2"
@@ -63,7 +63,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "b713167782820523112a780ec7c960e2"
+    "revision": "9c7e240a0a082354b24cd2ec5dac5f5b"
   },
   {
     "url": "polyfill-e310ad7bfc5d0ad624ce.js"
@@ -162,7 +162,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-b6f7362926e6db1c9b2f.js`))) {
+  if (!resources || !(await caches.match(`/app-1d3a61b7b4b281e0d9f3.js`))) {
     return await fetch(event.request)
   }
 
