@@ -1,11 +1,22 @@
 [
   {
-    "company": "Alter-Solutions",
+    "company": "Alter Solutions Portugal",
     "role": "Engenheiro Front-End",
     "date": ["04-01-2021"],
     "description": [
-      "Prestação de serviços para Farfetch por meio da Alter.",
-      "Desenvolvimento do back-office para s gestão dos displays e criação landing pages."
+      "Desenvolvimento de back-office para gerenciamento de display e criação de landing pages."
+    ],
+    "technologies": [
+      "CSS Modules",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Jest",
+      "NodeJS",
+      "GraphQL",
+      "Git",
+      "Jira",
+      "Agile"
     ]
   },
   {
@@ -13,7 +24,24 @@
     "role": "Engenheiro Full Stack",
     "date": ["09-01-2020","04-01-2021"],
     "description": [
-      "Trabalho de consultoria, implementação de boas práticas e otimização de código na plataforma Gamifica."
+      "Trabalho de consultoria e implementação de melhores práticas e otimização de código."
+    ],
+    "technologies": [
+      "Styled Components",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Redux",
+      "Jest",
+      "NodeJS",
+      "AWS",
+      "serverless",
+      "DynamoDB",
+      "Dynamoose",
+      "Git",
+      "GitHub",
+      "Jira",
+      "Agile"
     ]
   },
   {
@@ -21,8 +49,21 @@
     "role": "Engenheiro Front-End",
     "date": ["04-01-2020", "10-01-2020"],
     "description": [
-      "Criação e implementação das melhores soluções para atender o negócio, visando sempre a qualidade, a experiência dos membros e o compartilhamento das melhores práticas.",
+      "Criação e implementação das melhores soluções para auxiliar o negócio sempre visando qualidade, experiência do usuário e compartilhamento das melhores práticas.",
       "Desenvolvimento colaborativo da <a href=\"https://github.com/juntossomosmais/venice\" target=\"_blank\" rel=\"noopener noreferrer\">biblioteca de componentes visuais</a>."
+    ],
+    "technologies": [
+      "Styled Components",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Jest",
+      "Redux",
+      "NodeJS",
+      "Git",
+      "GitHub",
+      "Jira",
+      "Agile"
     ]
   },
   {
@@ -30,16 +71,42 @@
     "role": "Engenheiro Front-End",
     "date": ["07-01-2018", "04-01-2020"],
     "description": [
-      "Desenvolvimento focado em entrega contínua numa das Plataformas de Atendimento PagSeguro, utilizada como base pelos atendentes no auxílio aos clientes.",
+      "Desenvolvimento focado em entrega contínua numa das Plataformas de Atendimento PagSeguro ADA, utilizada como base pelos atendentes no auxílio aos clientes.",
       "Desenvolvimento colaborativo da biblioteca de componentes visuais da Pagseguro."
+    ],
+    "technologies": [
+      "SASS",
+      "CSS Modules",
+      "JavaScript",
+      "React",
+      "Redux",
+      "NodeJS",
+      "Git",
+      "Jira",
+      "Agile"
     ]
   },
   {
-    "company": "AIS Digital",
+    "company": "ília digital",
     "role": "Analista Desenvolvedor Web",
     "date": ["01-01-2017", "06-01-2018"],
     "description": [
       "Desenvolvimento de sistemas em SPA com Angular / Vue para clientes do exterior."
+    ],
+    "technologies": [
+      "Bootstrap",
+      "SASS",
+      "LESS",
+      "JavaScript",
+      "React",
+      "AngularJs",
+      "Webpack",
+      "NodeJS",
+      "SPA",
+      "Git",
+      "bitbucket",
+      "Jira",
+      "Agile"
     ]
   },
   {
@@ -47,8 +114,22 @@
     "role": "Analista Desenvolvedor Web/GIS",
     "date": ["07-01-2015", "12-01-2016"],
     "description": [
-      "Desenvolvimento de soluções integradas aos sistemas de BI, com a disponibilização de inteligência geográfica através de painéis.",
+      "Desenvolvimento de soluções Web GIS integradas aos sistemas de visualização de dados.",
       "Customizações de sistemas para melhor adequar a identidade visual e garantir melhor experiência ao usuário."
+    ],
+    "technologies": [
+      "Bootstrap",
+      "OpenLayers 3",
+      "ArcGis JS",
+      "JavaScript",
+      "Jquery",
+      "Webpack",
+      "GRUNT",
+      "GULP",
+      "SPA",
+      "Git",
+      "Jira",
+      "Agile"
     ]
   },
   {

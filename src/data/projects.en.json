@@ -1,22 +1,30 @@
 [
   {
-    "role": "Ada - PagSeguro",
-    "about": "The Ada service platform provides accessible customer information to attendants from different sectors of the PagSeguro company.",
+    "about": "Platform for creating custom events",
     "description": [
+      "Incorporation of  good practices such as code review and testing.",
+      "Worked closely with the designer to ensure the visual consistency of the platform.",
+      "Architectural optimization to improve platform performance."
+    ]},
+  {
+    "role": "Ada - PagSeguro",
+    "about": "The ADA service platform provides accessible customer information for the Support Team and Customer Experience from different sectors of the PagSeguro fintech.",
+    "description": [
+      "Platform redesign improving user experience and application consistency.",
       "Development with React / Redux on NodeJs with modular architecture",
       "Creation / Integration of WebServices in NodeJs."
     ]
   },
   {
-    "role": "Biometric Identification (TSE)",
-    "about": "Project to combat electoral fraud by means of biometric analyzes.",
+    "role": "Biometric Identification - CDS",
+    "about": "Project created to combat electoral fraud using biometric analysis implemented in a nation wide scale for the Superior Electoral Court.",
     "description": [
-      "Customization of OBIEE.",
+      "Customization of Oracle Business Intelligence Suite, Enterprise Edition (OBIEE)",
       "Creation of web applications integrated with OBIEE."
     ]
   },
   {
     "role": "Metroplan",
-    "about": "Development of SIGWeb applications integrated with Oracle Apex to provide geospatial information on aulinor and Baixo Cai projects."
+    "about": "Development of Web GIS applications integrated with Oracle Apex to provide geospatial information on Aulinor and Baixo Cai projects.."
   }
 ]

@@ -3,12 +3,15 @@
   "SCRUM",
   "Kanban",
   "Agile Methodology",
+  "Clean Code",
   "SOLID",
+  "RESTFul",
   "DRY",
   "TDD",
   "BDD",
   "Functional programming",
   "Web Standards",
   "Atomic Design",
-  "Mobile first"
+  "Mobile first",
+  "Design System"
 ]

@@ -2,12 +2,21 @@ import styled from "styled-components"
 import PropTypes from "prop-types"
 import React from "react"
 import Period from "./Period"
+import Badge from "../components/Badge"
 
 const Block = styled.div`
   position: "relative";
 `
 
-const MyBlock = ({ role, company, date, dateShort, description, about }) => (
+const MyBlock = ({
+  role,
+  company,
+  date,
+  dateShort,
+  description,
+  about,
+  technologies,
+}) => (
   <Block>
     {role && <h3>{role}</h3>}
     {company && <strong>{company}</strong>}
@@ -18,12 +27,16 @@ const MyBlock = ({ role, company, date, dateShort, description, about }) => (
     )}
     {about && <div>{about}</div>}
     {description && (
-      <ul>
+      <ul style={{ marginBottom: "0.5rem" }}>
         {description.map((d, key) => (
           <li key={key} dangerouslySetInnerHTML={{ __html: d }} />
         ))}
       </ul>
     )}
+    {technologies &&
+      technologies.map((technologie, key) => (
+        <Badge key={key}>{technologie}</Badge>
+      ))}
   </Block>
 )
 

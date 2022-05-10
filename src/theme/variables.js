@@ -4,7 +4,7 @@ import { css } from "styled-components"
 
 export default css`
   --bg: #f4f4f4;
-  --padding: 1rem;
+  --padding: 0.9rem;
   --color-text: #000;
   --color-primary: #0abde3;
   --color-persianGreen: #06b49a;

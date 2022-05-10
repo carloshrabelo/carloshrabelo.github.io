@@ -1,22 +1,32 @@
 [
   {
+    "role": "Gamifica",
+    "about": "Plataforma para criação de eventos customizáveis",
+    "description": [
+      "Incorporação da mentalidade de boas praticas como code review e testes.",
+      "Trabalho junto ao designer para garantir a consistência visual da plataforma.",
+      "Otimização da arquitetura para melhorar a performance da plataforma."
+    ]
+  },
+  {
     "role": "Ada - PagSeguro",
     "about": "A plataforma de atendimento Ada disponibiliza informações sensíveis de clientes aos atendentes, vindas de diversos setores da empresa PagSeguro.",
     "description": [
+      "Redesign da plataforma melhorando a experiencia do usuário e a consistência da aplicação.",
       "Desenvolvimento com React / Redux sobre NodeJs com arquitetura modular",
       "Criação/Integração WebServices em NodeJs."
     ]
   },
   {
-    "role": "Identificação Biométrica (TSE)",
-    "about": "Projeto de combate a fraudes eleitorais, por meio de análises biométricas.",
+    "role": "Identificação Biométrica - CDS",
+    "about": "Projeto do Tribunal Superior Eleitoral voltado para o combate a fraudes eleitorais por meio de análises biométricas.",
     "description": [
       "Customização do OBIEE.",
       "Criação de webapps integradas ao OBIEE."
     ]
   },
   {
-    "role": "Metroplan",
+    "role": "Metroplan - CDS",
     "about": "Desenvolvimento de aplicações SIGWeb integradas com Oracle Apex para disponibilização de informações geoespaciais dos projetos aulinor e baixo cai."
   }
 ]

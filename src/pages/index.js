@@ -7,6 +7,7 @@ import {
   FaPhone,
   FaAt,
   FaLinkedin,
+  FaGithub,
 } from "react-icons/fa"
 import media from "styled-media-query"
 
@@ -36,20 +37,20 @@ const Float = styled.span`
 const Container1 = styled.div`
   padding: 0 ${({ theme }) => theme.padding};
   ${toPrint(css`
-    width: 60%;
+    width: 55%;
   `)}
 `
 
 const Container2 = styled.div`
   padding: 0 ${({ theme }) => theme.padding};
   ${toPrint(css`
-    width: 40%;
+    width: 45%;
   `)}
 `
 
 var ageDifMs = Date.now() - Date.UTC(1992, 10, 24, 3, 0, 0)
 var ageDate = new Date(ageDifMs)
-const age = Math.abs(ageDate.getUTCFullYear() - 1970)
+// const age = Math.abs(ageDate.getUTCFullYear() - 1970)
 
 const FullName = styled.h1`
   text-align: center;
@@ -79,38 +80,47 @@ const ContatoWrapper = styled.div`
 const Header = withTrans(styled(({ t, className }) => {
   const contacts = loadData("contacts")
 
-  return(
-  <div className={className}>
-    <FullName>Carlos Henrique Rabelo de Oliveira</FullName>
-    <p>
+  return (
+    <div className={className}>
+      <FullName>Carlos Henrique Rabelo de Oliveira</FullName>
+      {/* <p>
       <FaFlag /> {t("about.nationality")}, {t("about.relationship")}, {age}{" "}
       {t("about.years")}
-    </p>
-    <p>
+    </p> */}
+      {/* <p>
       <FaMapMarkedAlt /> {contacts.address}
-    </p>
-    <ContatoWrapper>
-      <Contato>
-        <Link
-          target="_blank"
-          href={`https://api.whatsapp.com/send?phone=${contacts.phone}`}
-        >
-          <FaPhone /> {contacts["masked-phone"]}
-        </Link>
-      </Contato>
-      <Contato>
-        <Link href={`mailto:${contacts.mail}`}>
-          <FaAt /> {contacts.mail}
-        </Link>
-      </Contato>
-      <Contato>
-        <Link target="_blank" href={`https://www.linkedin.com/in/${contacts.linkedin}/`}>
-          <FaLinkedin /> {contacts.linkedin}
-        </Link>
-      </Contato>
-    </ContatoWrapper>
-  </div>
-)})`
+    </p> */}
+      <ContatoWrapper>
+        <Contato>
+          <Link
+            target="_blank"
+            href={`https://api.whatsapp.com/send?phone=${contacts.phone}`}
+          >
+            <FaPhone /> {contacts["masked-phone"]}
+          </Link>
+        </Contato>
+        <Contato>
+          <Link href={`mailto:${contacts.mail}`}>
+            <FaAt /> {contacts.mail}
+          </Link>
+        </Contato>
+        <Contato>
+          <Link target="_blank" href={`https://github.com/${contacts.github}/`}>
+            <FaGithub /> {contacts.github}
+          </Link>
+        </Contato>
+        <Contato>
+          <Link
+            target="_blank"
+            href={`https://www.linkedin.com/in/${contacts.linkedin}/`}
+          >
+            <FaLinkedin /> {contacts.linkedin}
+          </Link>
+        </Contato>
+      </ContatoWrapper>
+    </div>
+  )
+})`
   padding: 1rem;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   p {
@@ -136,7 +146,6 @@ const IndexPage = () => {
   const technologies = loadData("technologies")
   const knowledges = loadData("knowledges")
 
-
   // <Section title={t("certificates")} dateShort data={certificates} />
 
   return (
@@ -147,26 +156,26 @@ const IndexPage = () => {
       <Flex>
         <Container1>
           <Section title={t("professional experience")} data={experience} />
-          <Section title={t("technologies")}>
+          {/* <Section title={t("technologies")}>
             <Flex>
               {technologies.map((technologie, key) => (
                 <Badge key={key}>{technologie}</Badge>
               ))}
             </Flex>
-          </Section>
+          </Section> */}
         </Container1>
         <Container2>
-          <Formation/>
+          <Formation />
           <Section title={t("languages")}>
             <div>
-              <p>
+              <p style={{ marginBottom: "0", marginTop: "0.5rem" }}>
                 {t("portuguese")}
                 <Float>{t("native")}</Float>
               </p>
             </div>
             <Progress value="100" max="100" />
             <div>
-              <p>
+              <p style={{ marginBottom: "0", marginTop: "0.5rem" }}>
                 {t("english")}
                 <Float> {t("intermediate")}</Float>
               </p>

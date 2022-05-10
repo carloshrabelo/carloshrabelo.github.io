@@ -36,9 +36,9 @@ const Link = styled.a`
 const Contact = ({ title, data }) => (
   <ContactWidget title={title}>
     <Social>
-      <li>
+      {/* <li>
         <FaMapMarkedAlt /> {data.address}
-      </li>
+      </li> */}
       <li>
         <Link
           href={`https://api.whatsapp.com/send?phone=${data.phone}`}

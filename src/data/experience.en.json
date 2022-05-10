@@ -2,28 +2,27 @@
   {
     "role": "Front-end engineer",
     "description": [
-      "Providing services to Farfetch through Alter.",
-      "Development of the back-office for display management and creation of landing pages."
+      "Back-office development for management visualization and creation of landing pages."
     ]
   },
   {
     "role": "Full Stack Engineer",
     "description": [
-      "Consultancy work, implementation of good practices and code optimization on the Gamifica platform."
+      "Consultancy work and implementation of best practices and code optimization."
     ]
   },
   {
     "role": "Front-end engineer",
     "description": [
-      "Creation and implementation of the best solutions to serve the business, always aiming at quality, the experience of members and the sharing of best practices.",
-      "Collaborative development of the <a href=\"https://github.com/juntossomosmais/venice\" target=\"_blank\" rel=\"noopener noreferrer\"> library of visual components</a>"
+      "Creation and implementation of the best solutions to assist the business always aiming at quality,  user experience and sharing the best practices.",
+      "Made collaborative contributions to the <a href=\"https://github.com/juntossomosmais/venice\" target=\"_blank\" rel=\"noopener noreferrer\">library Venice</a> used for making visual components."
     ]
   },
   {
     "role": "Front-end engineer",
     "description": [
-      "Development focused on continuous delivery on one of the PagSeguro Service Platforms, used as a basis by the attendants in assisting customers.",
-      "Collaborative development of Pagseguro's library of visual components."
+      "Development focused on continuous delivery (CI/CD) on one of the Service Platforms (ADA) used by the attendants in assisting customers with a better user experience",
+      "Made collaborative development of Pagseguro's library of visual components."
     ]
   },
   {
@@ -35,8 +34,7 @@
   {
     "role": "Web Developer / GIS Analyst",
     "description": [
-      "Development of integrated solutions to BI systems, with the provision of geographic intelligence through panels.",
-      "Customizations of systems to better adapt the visual identity and guarantee a better user experience."
+      "Development of Web GIS (Geographic Information System) solutions integrated with data visualization tools such as PowerBI and making systems customizations to better adapt the visual identity according to the business necessities providing a better user experience."
     ]
   },
   {
