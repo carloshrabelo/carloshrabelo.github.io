@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-bfee9336e10c4133f0ad.js"
+    "url": "webpack-runtime-92e2e2382b49b08658c0.js"
   },
   {
     "url": "framework-61416065c0fba8268899.js"
@@ -42,28 +42,20 @@ self.__precacheManifest = [
     "url": "95b64a6e-28e843358d9c26f55683.js"
   },
   {
-    "url": "app-b6b17ad7f8d55e2e6a1d.js"
+    "url": "app-345ca9b58ef1678a2713.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "11401334a5bebed46d148dc6695a6ae4"
+    "revision": "65eb4073f6462124160a75fb7d4a83d3"
   },
   {
-    "url": "static/webfonts/s/nunito/v23/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTQ3jw.woff2"
+    "url": "static/webfonts/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTQ3jw.woff2"
   },
   {
-    "url": "static/webfonts/s/nunito/v23/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmdTQ3jw.woff2"
+    "url": "static/webfonts/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDGUmdTQ3jw.woff2"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-241020a1cf7d0f317bbe.js"
-  },
-  {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "860b5dd2e906a739df01ff20bd94af22"
-  },
-  {
-    "url": "page-data/app-data.json",
-    "revision": "7586e42fbda05024a720831e56cb9c19"
   },
   {
     "url": "polyfill-e310ad7bfc5d0ad624ce.js"
@@ -162,7 +154,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-b6b17ad7f8d55e2e6a1d.js`))) {
+  if (!resources || !(await caches.match(`/app-345ca9b58ef1678a2713.js`))) {
     return await fetch(event.request)
   }
 
