@@ -179,7 +179,7 @@ const IndexPage = () => {
                 {t("english")}
                 <Float> {t("intermediate")}</Float>
               </p>
-              <Progress value="65" max="100" />
+              <Progress value="85" max="100" />
             </div>
           </Section>
           <Section title={t("projects")} data={projects} />
