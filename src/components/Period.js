@@ -27,7 +27,7 @@ const Period = ({ className, dateShort, date }) => {
   const hasEnd = Array.isArray(date)
   const [start, end] = hasEnd ? date : [date, ""]
   const _start = f(start)
-  const _end = end ? f(end) : t("current")
+  const _end = end ? f(end) : t("present")
   return (
     <Capitalize className={className}>
       {_start}
