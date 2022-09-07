@@ -3,16 +3,19 @@
     "company": "Alter Solutions Portugal",
     "role": "Engenheiro Front-End",
     "date": ["04-01-2021"],
+    "description2": "System implemented in Tokens and similar devices in physical stores where we integrate products with online information to improve the shopping experience in physical stores, incorporating the “e-commerce” experience, among other features",
     "description": [
-      "Desenvolvimento de back-office para gerenciamento de display e criação de landing pages."
+      "Manutenção e evolução do back-office para gestão dos dispositivos displays e as suas informações."
     ],
     "technologies": [
       "CSS Modules",
       "JavaScript",
       "TypeScript",
       "React",
+      "NextJs",
       "Jest",
       "NodeJS",
+      "NestJs",
       "GraphQL",
       "Git",
       "Jira",
@@ -23,14 +26,18 @@
     "company": "Gamifica",
     "role": "Engenheiro Full Stack",
     "date": ["09-01-2020","04-01-2021"],
+    "description2": "A plataforma de eventos personalizável, onde simulamos a experiência de eventos físicos em nosso aplicativo. Desempenhei uma função de consultoria, para otimização de código e melhores práticas. Definição de padrões para evitar inconsistência visual e análise com a equipe comercial para alinhar o produto com as expectativas",
     "description": [
-      "Trabalho de consultoria e implementação de melhores práticas e otimização de código."
+      "Incorporação de melhores práticas como revisão de código e testes.",
+      "Refatoração de plataforma para garantir consistência visual.",
+      "Ajustes de arquitetura para otimizar o desempenho e a qualidade da plataforma."
     ],
     "technologies": [
       "Styled Components",
       "JavaScript",
       "TypeScript",
       "React",
+      "NextJs",
       "Redux",
       "Jest",
       "NodeJS",
@@ -57,6 +64,7 @@
       "JavaScript",
       "TypeScript",
       "React",
+      "NextJs",
       "Jest",
       "Redux",
       "NodeJS",

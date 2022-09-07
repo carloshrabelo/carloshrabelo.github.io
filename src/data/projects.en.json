@@ -1,11 +1,11 @@
 [
   {
-    "about": "Platform for creating custom events",
+    "about": "System implemented in Tokens and similar devices in physical stores where we integrate products with online information to improve the shopping experience in physical stores, incorporating the “e-commerce” experience, among other features.",
     "description": [
-      "Incorporation of  good practices such as code review and testing.",
-      "Worked closely with the designer to ensure the visual consistency of the platform.",
-      "Architectural optimization to improve platform performance."
-    ]},
+    ]},{
+      "about": "The platform incorporates gamification mechanics in events such as seminars and conferences and the holding of events through it",
+      "description": [
+      ]},
   {
     "role": "Ada - PagSeguro",
     "about": "The ADA service platform provides accessible customer information for the Support Team and Customer Experience from different sectors of the PagSeguro fintech.",
@@ -22,9 +22,5 @@
       "Customization of Oracle Business Intelligence Suite, Enterprise Edition (OBIEE)",
       "Creation of web applications integrated with OBIEE."
     ]
-  },
-  {
-    "role": "Metroplan",
-    "about": "Development of Web GIS applications integrated with Oracle Apex to provide geospatial information on Aulinor and Baixo Cai projects.."
   }
 ]

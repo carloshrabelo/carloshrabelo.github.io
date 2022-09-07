@@ -1,11 +1,14 @@
 [
   {
-    "role": "Gamifica",
-    "about": "Plataforma para criação de eventos customizáveis",
+    "role": "Connected Retail - Alter Solutions",
+    "about": "Sistema implementado em Tokens e dispositivos similares em lojas físicas onde integramos produtos com informações online para melhorar a experiência de compra em lojas físicas, incorporando a experiência de “e-commerce”, entre outras funcionalidades.",
     "description": [
-      "Incorporação da mentalidade de boas praticas como code review e testes.",
-      "Trabalho junto ao designer para garantir a consistência visual da plataforma.",
-      "Otimização da arquitetura para melhorar a performance da plataforma."
+    ]
+  },
+  {
+    "role": "Gamifica - Gamifica",
+    "about": "A plataforma incorpora mecânicas de gamificação em eventos como seminários e conferências e a realização de eventos por meio dela",
+    "description": [
     ]
   },
   {
@@ -24,9 +27,5 @@
       "Customização do OBIEE.",
       "Criação de webapps integradas ao OBIEE."
     ]
-  },
-  {
-    "role": "Metroplan - CDS",
-    "about": "Desenvolvimento de aplicações SIGWeb integradas com Oracle Apex para disponibilização de informações geoespaciais dos projetos aulinor e baixo cai."
   }
 ]
