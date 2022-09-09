@@ -46,7 +46,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "a0a9101638f9dd854c2b339cafced90f"
+    "revision": "6ba0d64c758f5df48e89c6e18188891e"
   },
   {
     "url": "static/webfonts/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTQ3jw.woff2"
