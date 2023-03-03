@@ -34,7 +34,7 @@ const XPTO = ({
       icon: FaGithubAlt,
     },
     {
-      href: "https://api.whatsapp.com/send?phone=5561982770330",
+      href: `https://api.whatsapp.com/send?phone=${data.phone}`,
       icon: IoLogoWhatsapp,
     },
   ],
