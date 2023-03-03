@@ -42,11 +42,11 @@ self.__precacheManifest = [
     "url": "95b64a6e-28e843358d9c26f55683.js"
   },
   {
-    "url": "app-acfbb0d7ec57a5127dfe.js"
+    "url": "app-52b222eb44fe0f24d9be.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "6ba0d64c758f5df48e89c6e18188891e"
+    "revision": "fff7be1105ff6b0762c17859e89cdf00"
   },
   {
     "url": "static/webfonts/s/nunito/v25/XRXI3I6Li01BKofiOc5wtlZ2di8HDLshdTQ3jw.woff2"
@@ -154,7 +154,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-acfbb0d7ec57a5127dfe.js`))) {
+  if (!resources || !(await caches.match(`/app-52b222eb44fe0f24d9be.js`))) {
     return await fetch(event.request)
   }
 
