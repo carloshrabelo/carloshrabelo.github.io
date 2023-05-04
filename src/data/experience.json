@@ -1,11 +1,37 @@
 [
   {
+    "company": "Wunderman Thompson Commerce & Technology",
+    "role": "Engenheiro Front-End",
+    "date": [
+      "10-01-2022"
+    ],
+    "description": [
+      "Manutenção e evolução de sistemas legados."
+    ],
+    "technologies": [
+      "SASS",
+      "JavaScript",
+      "JQuery",
+      "Handlebars",
+      "Bootstrap",
+      "Vanilla JS",
+      "Jest",
+      "NodeJS",
+      "Git",
+      "Jira",
+      "Agile"
+    ]
+  },
+  {
     "company": "Alter Solutions Portugal",
     "role": "Engenheiro Front-End",
-    "date": ["04-01-2021"],
-    "description2": "System implemented in Tokens and similar devices in physical stores where we integrate products with online information to improve the shopping experience in physical stores, incorporating the “e-commerce” experience, among other features",
+    "date": [
+      "04-01-2021", 
+      "10-01-2022"
+    ],
+    "description2": "Os Quiosques interativos são integrados aos produtos incorporando a experiência \"e-commerce\" exibindo informação online mais detalhadas além de exibir sugestões de compra",
     "description": [
-      "Manutenção e evolução do back-office para gestão dos dispositivos displays e as suas informações."
+      "Manutenção e evolução do Backoffice para gestão de dados e dispositivos dos Quiosques interativos."
     ],
     "technologies": [
       "CSS Modules",
@@ -25,7 +51,10 @@
   {
     "company": "Gamifica",
     "role": "Engenheiro Full Stack",
-    "date": ["09-01-2020","04-01-2021"],
+    "date": [
+      "09-01-2020",
+      "04-01-2021"
+    ],
     "description2": "A plataforma de eventos personalizável, onde simulamos a experiência de eventos físicos em nosso aplicativo. Desempenhei uma função de consultoria, para otimização de código e melhores práticas. Definição de padrões para evitar inconsistência visual e análise com a equipe comercial para alinhar o produto com as expectativas",
     "description": [
       "Incorporação de melhores práticas como revisão de código e testes.",
@@ -54,7 +83,10 @@
   {
     "company": "Juntos Somos mais",
     "role": "Engenheiro Front-End",
-    "date": ["04-01-2020", "10-01-2020"],
+    "date": [
+      "04-01-2020",
+      "10-01-2020"
+    ],
     "description": [
       "Criação e implementação das melhores soluções para auxiliar o negócio sempre visando qualidade, experiência do usuário e compartilhamento das melhores práticas.",
       "Desenvolvimento colaborativo da <a href=\"https://github.com/juntossomosmais/venice\" target=\"_blank\" rel=\"noopener noreferrer\">biblioteca de componentes visuais</a>."
@@ -77,7 +109,10 @@
   {
     "company": "PagSeguro",
     "role": "Engenheiro Front-End",
-    "date": ["07-01-2018", "04-01-2020"],
+    "date": [
+      "07-01-2018",
+      "04-01-2020"
+    ],
     "description": [
       "Desenvolvimento focado em entrega contínua numa das Plataformas de Atendimento PagSeguro ADA, utilizada como base pelos atendentes no auxílio aos clientes.",
       "Desenvolvimento colaborativo da biblioteca de componentes visuais da Pagseguro."
@@ -96,8 +131,11 @@
   },
   {
     "company": "ília digital",
-    "role": "Analista Desenvolvedor Web",
-    "date": ["01-01-2017", "06-01-2018"],
+    "role": "Desenvolvedor Web",
+    "date": [
+      "01-01-2017",
+      "06-01-2018"
+    ],
     "description": [
       "Desenvolvimento de sistemas em SPA com Angular / Vue para clientes do exterior."
     ],
@@ -119,8 +157,11 @@
   },
   {
     "company": "CDS - Condomínio de Soluções",
-    "role": "Analista Desenvolvedor Web/GIS",
-    "date": ["07-01-2015", "12-01-2016"],
+    "role": "Desenvolvedor Web/GIS",
+    "date": [
+      "07-01-2015",
+      "12-01-2016"
+    ],
     "description": [
       "Desenvolvimento de soluções Web GIS integradas aos sistemas de visualização de dados.",
       "Customizações de sistemas para melhor adequar a identidade visual e garantir melhor experiência ao usuário."
@@ -143,6 +184,9 @@
   {
     "company": "CDS - Condomínio de Soluções",
     "role": "Estágio/Trainee WebGIS",
-    "date": ["06-01-2013", "07-01-2015"]
+    "date": [
+      "06-01-2013",
+      "07-01-2015"
+    ]
   }
 ]

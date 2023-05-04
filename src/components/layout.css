@@ -620,3 +620,10 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.MyBlock__Block-gHqVcE.bCLUje:nth-child(n + 7) li {
+  display: none;
+}
+.MyBlock__Block-gHqVcE.bCLUje:nth-child(2) li {
+  display: none;
+}
