@@ -27,7 +27,7 @@ const MyBlock = ({
     )}
     {about && <div>{about}</div>}
     {description && (
-      <ul style={{ marginBottom: "0.5rem" }}>
+      <ul style={{ marginBottom: "0.25rem", marginTop: "0.25rem" }}>
         {description.map((d, key) => (
           <li key={key} dangerouslySetInnerHTML={{ __html: d }} />
         ))}
